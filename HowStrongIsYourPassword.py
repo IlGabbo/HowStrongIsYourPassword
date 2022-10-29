@@ -27,7 +27,6 @@ def timeCount():
     input("Press any key to exit")
 
 password = input(Colors.yellow + "Type here your password > " + Colors.white)
-lenght = input(Colors.yellow + "Type lenght > " + Colors.white)
 i = 0
 
 completeSetting = string.ascii_lowercase
@@ -48,7 +47,7 @@ for i in range(len(password)):
 threading.Thread(target=timeCount).start()
 
 while True:
-    gag = "".join(secrets.choice(completeSetting) for i in range(int(lenght)))
+    gag = "".join(secrets.choice(completeSetting) for i in range(len(password)))
     print(Colors.white + gag)
     if password == gag:
         print(Colors.green + "Found!:", Colors.white + "'" + gag + "'")
