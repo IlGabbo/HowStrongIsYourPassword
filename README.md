@@ -4,7 +4,7 @@ Enter your password and wait, if it finds it you will be told the elapsed time
 Required libraries:
 <ul>
  <li>
-  <a href="https://pypi.org/project/pystyle/">pystyle</a>
+  <a href="https://pypi.org/project/pystyle/">Pystyle</a>
  </li>
 </ul>
 
