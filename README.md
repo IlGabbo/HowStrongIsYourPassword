@@ -3,7 +3,9 @@ Enter your password and wait, if it finds it you will be told the elapsed time
 
 Required libraries:
 <ul>
- <li>pystyle</li>
+ <li>
+  <a href="https://pypi.org/project/pystyle/">pystyle</a>
+ </li>
 </ul>
 
 <img src="https://github.com/IlGabbo/HowStrongIsYourPassword/blob/main/numbers.png">
